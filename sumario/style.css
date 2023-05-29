@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto' , sans-serif;
+    background-color: #f9f9fb;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.caixa-principal {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(258, 99%, 37%);
+    font-size: 11px; 
+    text-align: center;
+    width: 600px;
+    place-items: center;
+    color: #f9f9fb;
+}
+
+div.score1 {
+    display: flex;
+    columns: end;
+}
+
+div.score2 {
+    display: flex;
+    columns: end;
+}
+
+div.score3 {
+    display: flex;
+    columns: end;
+}
+
+div.score4 {
+    display: flex;
+    columns: end;
+}
